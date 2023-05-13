@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>KAITECH Level Creator</Name>
+    <Assembly>MTool V1.dll</Assembly>
+    <AddInId>A3CCC457-5098-463B-8959-F54A828B3C6E</AddInId>
+    <FullClassName>MTool_V1.Main</FullClassName>
+    <VendorId>Eng Muhammad</VendorId>
+    <Publisher>Eng Muhammad Osama</Publisher>
+    <VendorDescription>Eng Muhammad, Software Engineer, Revit API</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>KAITECH Level Creator</Name>
+    <Assembly>MTool V1.dll</Assembly>
+    <AddInId>CAF033A1-D9DA-437B-B88D-2B084CA4B5CD</AddInId>
+    <FullClassName>MTool_V1.Main</FullClassName>
+    <VendorId>Eng Muhammad</VendorId>
+    <Publisher>Eng Muhammad Osama</Publisher>
+    <VendorDescription>Eng Muhammad, Software Engineer, Revit API</VendorDescription>
+  </AddIn>
+</RevitAddIns>

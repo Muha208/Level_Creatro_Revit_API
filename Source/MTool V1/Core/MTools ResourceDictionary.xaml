@@ -1,0 +1,28 @@
+﻿<ResourceDictionary x:Class="MTool_V1.Tools_main_Resources.MTools_ResourceDictionary"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="using:MTool_V1.Tools_main_Resources"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+
+                    xmlns:MPage="MTool_V1.Main_Window_MTools"
+                    xmlns:STyle="clr-namespace:MTool_V1.Styles"
+                    xmlns:Forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms">
+
+    <ResourceDictionary.MergedDictionaries>
+        <!--<ResourceDictionary Source ="Pages Views\Selection Tools View.xaml"/>-->
+        <ResourceDictionary Source ="Styles\Styles.xaml"/>
+        <ResourceDictionary Source ="Main Window MTools.xaml"/>
+        <!--<ResourceDictionary Source ="Pages Views\Create Families Page View.xaml"/>-->
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--<DataTemplate 
+        DataType="{x:Type Pages:Create_Families_Page_View}">
+        <Pages:Create_Families_Page_View/>
+    </DataTemplate>
+    <DataTemplate 
+         DataType="{x:Type Pages:Selection_Tools_View}">
+        <Pages:Selection_Tools_View/>
+    </DataTemplate>-->
+    <!--xmlns:Pages ="clr-namespace:MTool_V1.Pages_Views"-->
+</ResourceDictionary>

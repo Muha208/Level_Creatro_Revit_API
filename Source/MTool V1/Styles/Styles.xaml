@@ -1,0 +1,78 @@
+﻿<ResourceDictionary x:Class="MTool_V1.Styles.Styles"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="using:MTool_V1.Styles"
+                    >
+
+    <SolidColorBrush x:Key="Backgroud_Base" Color="#272537"/>
+
+    <SolidColorBrush x:Key="PramyerColorGround" Color="#FF211F2D"/>
+    <SolidColorBrush x:Key="SecondColorGround" Color="#FFA1A1A1"/>
+
+    <SolidColorBrush x:Key="PramyerColorText" Color="#FFA1A1A1"/>
+    <SolidColorBrush x:Key="SecondColorText" Color="#FF211F2D"/>
+
+    <SolidColorBrush x:Key="BorderPreColor" Color="#FF818181"/>
+    
+        <!--Button Style for unpushed only for sider-->
+    <Style TargetType="Button" x:Key="botSide" x:Name="botSide">
+        <Setter Property="Background" Value="{StaticResource PramyerColorGround}"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Height" Value="60"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderPreColor}"/>
+        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        <Setter Property="Foreground" Value="{StaticResource PramyerColorText}"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <!--TabItem Style for unpushed only for Tabs-->
+        <Style TargetType="TabItem" x:Key="botTab">
+        <Setter Property="Background" Value="{StaticResource SecondColorGround}"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Margin" Value="0,-2,0,1"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="{StaticResource PramyerColorGround}"/>
+            <Setter Property="TextBlock.FontSize" Value="12"/>
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    <!--Main BOrder Style -->
+    <Style TargetType="Border" x:Key="Border_MAin" >
+        <Setter Property="Background" Value="{StaticResource Backgroud_Base}"/>
+        <Setter Property="MinHeight" Value="450"/>
+        <Setter Property="Width" Value="600"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="BorderThickness" Value="0,0,0,0"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="CornerRadius" Value="10,10,0,0"/>
+    </Style>
+    <!--Main Grid Style -->
+    <Style TargetType="Grid" x:Key="Grid_MAin">
+        <Setter Property="Background" Value="{StaticResource Backgroud_Base}"/>
+        <Setter Property="MinHeight" Value="450"/>
+        <Setter Property="Width" Value="600"/>
+        <Setter Property="Margin" Value="0"/>
+    </Style>
+    <!--Main Window Style -->
+    <Style TargetType="Window" x:Key="Window_MAin" >
+        <Setter Property="AllowDrop" Value="True"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="ResizeMode" Value="CanResizeWithGrip"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="Foreground" Value="{x:Null}"/>
+        <Setter Property="MinHeight" Value="450"/>
+        <Setter Property="Width" Value="600"/>
+    </Style>
+
+</ResourceDictionary>
